@@ -15,26 +15,26 @@ Se ejecuta el programa con: java Main <n_dni>
 
 Correspondencia Numero-Letra
 ============================
-1. T
-2. R
-3. W
-4. A
-5. G
-6. M
-7. Y
-8. F
-9. P
-10. D
-11. X
-12. B
-13. N
-14. J
-15. Z
-16. S
-17. Q
-18. V
-19. H
-20. L
-21. C
-22. K
-23. E
+0-T
+1-R
+2-W
+3-A
+4-G
+5-M
+6-Y
+7-F
+8-P
+9-D
+10-X
+11-B
+12-N
+13-J
+14-Z
+15-S
+16-Q
+17-V
+18-H
+19-L
+20-C
+21-K
+22-E
