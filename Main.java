@@ -51,9 +51,9 @@ public class Main {
 
 		try {
 
-			File fileTotal = new File("completo.pat");
-			File fileTrain = new File("train.pat");
-			File fileTest = new File("test.pat");
+			File fileTotal = new File("dni_full.pat");
+			File fileTrain = new File("dni_train.pat");
+			File fileTest = new File("dni_test.pat");
 
 			// if file doesnt exists, then create it
 
