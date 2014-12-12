@@ -6,35 +6,17 @@ Programa Java al cual se introduce por consola el número de DNIs generando 3 fi
 - **dni_train.pat** Contiene el 70% de los casos generados en el archivo dni_full.pat
 - **dni_test.pat** Contiene el 30% de los casos generados en el archivo dni_full.pat
 
-Ejecución y compilacion
+Compilación y ejecución
 =======================
 
-Se compila el Main.java con: javac Main.java
+Se compila el Main.java con: `javac Main.java`
 
-Se ejecuta el programa con: java Main <n_dni>
+Se ejecuta el programa con: `java Main <n_dni>`
 
 Correspondencia Numero-Letra
 ============================
-0-T
-1-R
-2-W
-3-A
-4-G
-5-M
-6-Y
-7-F
-8-P
-9-D
-10-X
-11-B
-12-N
-13-J
-14-Z
-15-S
-16-Q
-17-V
-18-H
-19-L
-20-C
-21-K
-22-E
+```
+0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+T  R  W  A  G  M  Y  F  P  D  X  B  N  J  Z  S  Q  V  H  L  C  K  E
+```
