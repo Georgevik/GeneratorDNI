@@ -8,7 +8,13 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        int nRows = Integer.parseInt(args[0]);
+        int nRows = 0;
+        try {
+            nRows = Integer.parseInt(args[0]);
+        } catch (Exception e) {
+            System.err.println("Uso: java Main <numero_de_dni_a_generar>");
+            System.exit(1);
+        }
         
         String resultado = "";
         String training = "";
@@ -57,8 +63,6 @@ public class Main {
             File fileTrain = new File("dni_train.pat");
             File fileTest = new File("dni_test.pat");
             
-            // if file doesnt exists, then create it
-            
             escribir(fileTotal, resultado, nRows);
             escribir(fileTrain, training, nLineasTrain);
             escribir(fileTest, test, nLineasTest);
@@ -74,8 +78,10 @@ public class Main {
     public static void escribir(File file, String codigo, int rows) throws IOException {
         codigo = codigo.trim();
         codigo  = cabecera(rows)+codigo;
-        
+
         //System.out.println(codigo);
+            
+        // if file doesnt exists, then create it
         if (!file.exists()) {
             file.createNewFile();
         }
